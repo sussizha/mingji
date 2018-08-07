@@ -1,0 +1,132 @@
+.nav-container {
+    width: 100%;
+    background: #fff;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    font-weight: 300;
+}
+
+.header-active {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.heaader-inner {
+    width: 100%;
+    max-width: 1266px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo, .menu, .search-input {
+    display: inline-block;
+    height: 100%;
+    line-height: inherit;
+}
+
+.logo img {
+    height: 30px;
+    vertical-align: middle;
+}
+
+.separate-line {
+    font-size: 20px;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.menu {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.search-input {
+    float: right;
+    position: relative;
+    margin: 12px 20px 0 0;
+    height: 25px;
+    line-height: 25px;
+    background: rgba(255, 255, 255, 0.3);
+    /*box-sizing: border-box;*/
+    padding: 0 30px;
+    border-radius: 50px;
+}
+
+.search-input img {
+    vertical-align: middle;
+}
+
+.search-input input {
+    border: none;
+    background: transparent;
+    color: inherit;
+    outline:none;
+}
+
+.search-input input::-webkit-input-placeholder {
+    color: inherit;
+    font-weight: 300;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .nav-container {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .menu li {
+        margin: 0 10px;
+    }
+
+    .search-input {
+        margin: 12px 20px 0 0;
+        height: 25px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .nav-container {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .menu li {
+        margin: 0 25px;
+    }
+
+    .search-input {
+        margin: 12px 20px 0 0;
+        height: 25px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .nav-container {
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .search-input {
+        margin: 20px 0 0 0;
+        height: 30px;
+        line-height: 30px;
+    }
+}

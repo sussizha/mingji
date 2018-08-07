@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>铭基电子科技</title>
+    <link rel="stylesheet" href="../css/swiper-4.3.3.min.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<nav class="nav-container header-active">
+    <div class="heaader-inner">
+        <div class="logo">
+            <img src="../images/index/logo.png" alt="logo">
+            <span class="separate-line">|</span>
+            <span>铭基电子</span>
+        </div>
+        <ul class="menu">
+            <li>首页</li>
+            <li>新闻资讯</li>
+            <li>经典案例</li>
+            <li>资质荣誉</li>
+            <li>业务范围</li>
+            <li>关于我们</li>
+        </ul>
+        <div class="search-input">
+            <img src="../images/index/search-white.png" alt="搜索">
+            <input type="text" placeholder="搜索">
+        </div>
+    </div>
+</nav>
+
+<!--顶部轮播图-->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="../images/index/banner1.png" alt="banner1"></div>
+        <div class="swiper-slide"><img src="../images/index/banner2.png" alt="banner2"></div>
+        <!--<div class="swiper-slide">Slide 3</div>-->
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+</div>
+
+<script src="../js/jquery.3.1.1.min.js"></script>
+<script src="../js/plugins/swiper-4.3.3.min.js"></script>
+
+<script>
+  var mySwiper = new Swiper ('.swiper-container', {
+    loop: true,
+    autoplay: true,//可选选项，自动滑动
+
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  })
+</script>
+</body>
+</html>
