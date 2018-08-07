@@ -1,4 +1,4 @@
-body, html {
+body, html, p, ul, li, h1, h2, h3 {
     margin: 0;
     padding: 0;
     font-family: "PingFang SC", "Microsoft Yahei", Simsun, sans-serif;
@@ -6,4 +6,99 @@ body, html {
 
 .swiper-container, .swiper-container img {
     width: 100%;
+}
+
+.news-container {
+    width: 90%;
+    max-width: 1390px;
+    margin: 0 auto;
+}
+
+.index-news-content {
+    font-size: 0;
+    padding: 50px 5% 30px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.index-news-content .inner-img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+.inner-img img{
+    width: 200px;
+}
+
+.index-title {
+    width: 100%;
+    text-align: center;
+
+}
+
+.index-title h1 {
+    font-size: 35px;
+    color: rgba(42, 42, 42, 0.8);
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.index-title p {
+    font-size: 14px;
+    color: rgba(113, 113, 113, 0.8);
+    margin: 0;
+}
+
+.index-news-inner {
+    width: calc(100% - 200px);
+    height: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+.index-news-inner, .inner-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #717171;
+    text-align:justify;
+}
+
+.index-news-inner .inner-content {
+    font-size: 14px;
+    font-weight: 300;
+    color: #717171;
+    height: 150px;
+}
+
+.inner-content p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.index-news-inner .inner-footer {
+    font-size: 17px;
+    font-weight: 300;
+    color: #717171;
+}
+
+.inner-footer .read {
+    float: right;
+    font-size: 18px;
+    color: #4A90E2;
+}
+
+.inner-title img {
+    float: right;
+}
+
+.inner-title span, .inner-title img {
+    vertical-align: middle;
+}
+
+.margin-top-60 {
+    margin-top: 60px;
 }
