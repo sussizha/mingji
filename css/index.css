@@ -162,11 +162,6 @@
     color: rgba(42, 42, 42, 0.6);
 }
 
-.index-separate-line {
-    border: none;
-    border-top: 1px solid #d3d3d3;
-}
-
 @media screen and (min-width: 1300px) {
     .index-aboutus {
         font-size: 14px;
