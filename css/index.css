@@ -17,7 +17,6 @@ body, html, p, ul, li, h1, h2, h3 {
 .index-news-content {
     font-size: 0;
     padding: 50px 5% 30px;
-    border-bottom: 1px solid #d3d3d3;
 }
 
 .index-news-content .inner-img {
@@ -166,4 +165,39 @@ body, html, p, ul, li, h1, h2, h3 {
 
 .padding-left {
     padding: 0 0 0 10px;
+}
+
+.index-aboutus {
+    text-align: center;
+    max-width: 1050px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: rgba(42, 42, 42, 0.6);
+    letter-spacing: 1.8px;
+}
+
+.index-aboutus p {
+    margin: 20px 0;
+}
+
+.index-footer {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.index-footer p {
+    margin: 20px 0;
+    color: rgba(42, 42, 42, 0.6);
+}
+
+.index-separate-line {
+    border: none;
+    border-top: 1px solid #d3d3d3;
+}
+
+@media screen and (min-width: 1300px) {
+    .index-aboutus {
+        font-size: 14px;
+    }
 }
