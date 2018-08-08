@@ -50,7 +50,7 @@ ul, li {
     color: inherit;
 }
 
-.active {
+#pagination .active {
     color: #4A90E2!important;
     border: 1px solid #4A90E2!important;
 }
