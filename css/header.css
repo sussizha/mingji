@@ -8,6 +8,7 @@
     top: 0;
     z-index: 9999;
     font-weight: 300;
+    box-shadow: 0 3px 4px 0 rgba(240,240,240,0.50);
 }
 
 .header-active {
@@ -15,7 +16,7 @@
     background: rgba(0, 0, 0, 0.3);
 }
 
-.heaader-inner {
+.header-inner {
     width: 100%;
     max-width: 1266px;
     margin: 0 auto;
@@ -59,12 +60,17 @@
     text-decoration: none;
 }
 
-.menu li a:hover{
+.header-inner .menu li a:hover{
     color: #fff;
 }
 
-.active {
-    color: #fff;
+.white-bck .header-inner .menu li a:hover {
+    color: #000;
+    font-weight: 400;
+}
+
+.white-bck .header-inner .active {
+    color: #000;
 }
 
 .search-input {
