@@ -6,12 +6,14 @@
     <link rel="stylesheet" href="../css/swiper-4.3.3.min.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/common.css">
 </head>
 <body>
-<nav class="nav-container header-active">
+<nav class="nav-container header-active" id="header">
     <div class="heaader-inner">
         <div class="logo">
-            <img src="../images/index/logo.png" alt="logo">
+            <img src="../images/index/logo-white.png" id="logo_white" alt="logo" class="show">
+            <img src="../images/index/logo.png" id="logo_color" class="hide" alt="logo">
             <span class="separate-line">|</span>
             <span>铭基电子</span>
         </div>
@@ -32,7 +34,7 @@
 
 <!--顶部轮播图-->
 <div class="swiper-container">
-    <div class="swiper-wrapper">
+    <div class="swiper-wrapper" id="swiper_wrapper">
         <div class="swiper-slide"><img src="../images/index/banner1.png" alt="banner1"></div>
         <div class="swiper-slide"><img src="../images/index/banner2.png" alt="banner2"></div>
         <!--<div class="swiper-slide">Slide 3</div>-->
@@ -52,7 +54,9 @@
         <div class="inner-img"><img src="../images/index/news1.png" alt="公司动态"></div>
         <div class="index-news-inner">
             <p class="inner-title">
-                <span>对外传播技术大楼主楼、音乐录制棚、地下柴油电机房及中水处理机机房等三项弱电工程</span>
+                <a href="#">
+                    <span>对外传播技术大楼主楼、音乐录制棚、地下柴油电机房及中水处理机机房等三项弱电工程</span>
+                </a>
                 <img src="../images/index/bidding.png" alt="中标">
             </p>
             <div class="inner-content">
@@ -60,15 +64,35 @@
             </div>
             <p class="inner-footer">
                 <span>发布日期：2018-03-10  13:16</span>
-                <span class="read">阅读</span>
             </p>
         </div>
+    </div>
+    <div class="index-news-content">
+        <a href="#">
+            <div class="inner-img"><img src="../images/index/news1.png" alt="公司动态"></div>
+            <div class="index-news-inner">
+                <p class="inner-title">
+                    <a href="#">
+                        <span>对外传播技术大楼主楼、音乐录制棚、地下柴油电机房及中水处理机机房等三项弱电工程</span>
+                    </a>
+                    <img src="../images/index/bidding.png" alt="中标">
+                </p>
+                <div class="inner-content">
+                    <p>此工程建设地点为北京市石景山区石景山路甲16号，<br/>建筑面积为89000平方米；<br/>包含：视频监控系统、门禁系统、车库管理系统、巡更系统、一卡通系统等。</p>
+                </div>
+                <p class="inner-footer">
+                    <span>发布日期：2018-03-10  13:16</span>
+                </p>
+            </div>
+        </a>
     </div>
     <div class="index-news-content">
         <div class="inner-img"><img src="../images/index/news1.png" alt="公司动态"></div>
         <div class="index-news-inner">
             <p class="inner-title">
-                <span>对外传播技术大楼主楼、音乐录制棚、地下柴油电机房及中水处理机机房等三项弱电工程</span>
+                <a href="#">
+                    <span>对外传播技术大楼主楼、音乐录制棚、地下柴油电机房及中水处理机机房等三项弱电工程</span>
+                </a>
                 <img src="../images/index/bidding.png" alt="中标">
             </p>
             <div class="inner-content">
@@ -76,23 +100,6 @@
             </div>
             <p class="inner-footer">
                 <span>发布日期：2018-03-10  13:16</span>
-                <span class="read">阅读</span>
-            </p>
-        </div>
-    </div>
-    <div class="index-news-content">
-        <div class="inner-img"><img src="../images/index/news1.png" alt="公司动态"></div>
-        <div class="index-news-inner">
-            <p class="inner-title">
-                <span>对外传播技术大楼主楼、音乐录制棚、地下柴油电机房及中水处理机机房等三项弱电工程</span>
-                <img src="../images/index/bidding.png" alt="中标">
-            </p>
-            <div class="inner-content">
-                <p>此工程建设地点为北京市石景山区石景山路甲16号，<br/>建筑面积为89000平方米；<br/>包含：视频监控系统、门禁系统、车库管理系统、巡更系统、一卡通系统等。</p>
-            </div>
-            <p class="inner-footer">
-                <span>发布日期：2018-03-10  13:16</span>
-                <span class="read">阅读</span>
             </p>
         </div>
     </div>
@@ -106,22 +113,22 @@
     </div>
     <div class="index-news-content">
         <div class="left-project">
-            <img src="../images/index/project1.png" alt="经典案例">
-            <p class="project-bottom">朔黄发展大厦建筑智能化工程</p>
+            <img src="../images/index/Z14.png" alt="经典案例">
+            <p class="project-bottom">中国北京市CBD核心区Z14地块商业金融项目弱电系统工程</p>
         </div>
         <div class="right-project">
            <div class="img-box">
-               <img src="../images/index/project2.png" alt="经典案例">
-               <p class="project-bottom">朔黄发展大厦建筑智能化工程</p>
+               <img src="../images/index/新世界三期.jpg" alt="经典案例">
+               <p class="project-bottom">岭南新世界三区发展项目</p>
            </div>
            <div class="img-box">
                 <div class="half-project">
-                    <img src="../images/index/project3.png" alt="经典案例">
-                    <p class="project-bottom">朔黄发展大厦建筑智能化工程</p>
+                    <img src="../images/index/丽晶酒店.jpg" alt="经典案例">
+                    <p class="project-bottom">金宝国际中心—丽晶酒店</p>
                 </div>
                 <div class="half-project padding-left">
-                    <img src="../images/index/project4.png" alt="经典案例">
-                    <p class="project-bottom">朔黄发展大厦建筑智能化工程</p>
+                    <img src="../images/index/国家图书馆.jpg" alt="经典案例">
+                    <p class="project-bottom">国家数字图书馆</p>
                 </div>
            </div>
         </div>
@@ -166,6 +173,45 @@
       el: '.swiper-pagination',
     },
   })
+  function throttle(func, wait, mustRun) {
+    var timeout,
+      startTime = new Date();
+
+    return function() {
+      var context = this,
+        args = arguments,
+        curTime = new Date();
+
+      clearTimeout(timeout);
+      // 如果达到了规定的触发时间间隔，触发 handler
+      if(curTime - startTime >= mustRun){
+        func.apply(context,args);
+        startTime = curTime;
+        // 没达到触发间隔，重新设定定时器
+      }else{
+        timeout = setTimeout(func, wait);
+      }
+    };
+  };
+  function realFunc(){
+    var fixedDom = $('#header');
+    var height = document.getElementById('swiper_wrapper').clientHeight;
+    var heightTop = document.documentElement.scrollTop || document.body.scrollTop;
+    if (heightTop > height) {
+      fixedDom.addClass('white-bck')
+      $('#logo_white').addClass('hide')
+      $('#logo_white').removeClass('show')
+      $('#logo_color').addClass('show')
+      $('#logo_color').removeClass('hide')
+    } else {
+      fixedDom.removeClass('white-bck')
+      $('#logo_white').addClass('show')
+      $('#logo_white').removeClass('hide')
+      $('#logo_color').addClass('hide')
+      $('#logo_color').removeClass('show')
+    }
+  }
+  window.addEventListener('scroll',throttle(realFunc, 50, 500));
 </script>
 </body>
 </html>

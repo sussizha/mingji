@@ -1,0 +1,39 @@
+body, html, p, ul, li, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    font-family: "PingFang SC", "Microsoft Yahei", Simsun, sans-serif;
+}
+
+/*大标题*/
+.index-title {
+    width: 100%;
+    text-align: center;
+
+}
+
+.index-title h1 {
+    font-size: 35px;
+    color: rgba(42, 42, 42, 0.8);
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.index-title p {
+    font-size: 14px;
+    color: rgba(113, 113, 113, 0.8);
+    margin: 0;
+}
+
+/******大标题结束******/
+
+.margin-top-60 {
+    margin-top: 60px;
+}
+
+.margin-top-80 {
+    margin-top: 80px!important;
+}
+
+.margin-bottom-80 {
+    margin-bottom: 80px!important;
+}

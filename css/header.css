@@ -8,6 +8,7 @@
     top: 0;
     z-index: 9999;
     font-weight: 300;
+    box-shadow: 0 3px 4px 0 rgba(240,240,240,0.50);
 }
 
 .header-active {
@@ -82,7 +83,18 @@
     font-weight: 300;
 }
 
+.white-bck {
+    background: #fff;
+    color: rgba(0, 0, 0, 1);
+}
 
+.hide {
+    display: none;
+}
+
+.show {
+    display: inline-block;
+}
 
 @media screen and (min-width: 768px) {
     .nav-container {
