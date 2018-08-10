@@ -1,0 +1,96 @@
+body
+{
+    width:100%;
+    margin:0
+}
+.title1
+{
+    margin-top:130px;
+    height:50px;
+    text-align:center;
+}
+
+.title2
+{
+    margin-top:10px;
+    text-align:center;
+}
+
+.album
+{
+    margin:57px auto 25px;
+    width:80%;
+    height:675px;
+    position:relative;
+}
+.imagetxt
+{
+    display:inline-block;
+    width:22%;
+    height:673px;
+    text-align:center;
+    vertical-align:top;
+    border:1px solid #E9E9E9;
+    position:absolute;
+}
+
+#imagetxt1
+{
+    left:0%;
+}
+#imagetxt2
+{
+    left:26%;
+}
+
+#imagetxt3
+{
+    left:52%;
+}
+
+#imagetxt4
+{
+    right:0%;
+}
+
+.imagetxt img
+{
+    width:100%;
+}
+
+.content
+{
+    text-align:center;
+}
+.imagetitle
+{
+    font-size:24px;
+    color:#000000;
+    margin:10px auto 20px;
+}
+
+.text
+{
+    list-style:none;
+    font-size:20px;
+    color:#717171;
+    line-height:35px;
+}
+
+.footer
+{
+    text-align:center;
+    line-height:60px;
+    width:80%;
+    height:80px;
+    margin:0 auto;
+    color:white;
+    size:24px;
+    background-size:100% 100%;
+}
+
+.footer p
+{
+    display:inline-block;
+    border-bottom:1px solid white;
+}

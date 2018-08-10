@@ -1,0 +1,16 @@
+.aboutus-container {
+    width: 70%;
+    max-width:  1350px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.aboutus-title {
+    text-align: left;
+}
+
+.aboutus-intro {
+    width: 100%;
+}
+
+service.css

@@ -29,33 +29,6 @@ ul, li {
     color: #4A90E2;
 }
 
-#pagination {
-    text-align: right;
-    margin-top: 40px;
-}
-
-#pagination li {
-    display: inline-block;
-    padding: 3px 8px;
-    border: 1px solid #d3d3d3;
-    margin: 5px;
-    color: rgba(0, 0, 0, 0.8);
-    font-size: 14px;
-    cursor: pointer;
-    border-radius: 3px;
-}
-
-#pagination li a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#pagination .active {
-    color: #4A90E2!important;
-    border: 1px solid #4A90E2!important;
-}
-
-
 .show-news-container {
     width: 100%;
     background: #F4F6FF;
@@ -96,6 +69,18 @@ ul, li {
     color: rgba(5, 5, 5, 0.6);
     letter-spacing: 0.54px;
     margin-top: 30px;
+}
+
+.show-news-content p {
+    font-size: inherit;
+    color: inherit;
+}
+
+.show-news-content img {
+    width: 25%;
+    max-width: 240px;
+    box-sizing: border-box;
+    padding-right: 20px;
 }
 
 .show-news-footer p {

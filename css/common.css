@@ -26,6 +26,36 @@ body, html, p, ul, li, h1, h2, h3 {
 
 /******大标题结束******/
 
+/*分页样式*/
+
+#pagination {
+    text-align: right;
+    margin-top: 40px;
+}
+
+#pagination li {
+    display: inline-block;
+    padding: 3px 8px;
+    border: 1px solid #d3d3d3;
+    margin: 5px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#pagination li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#pagination .active {
+    color: #4A90E2!important;
+    border: 1px solid #4A90E2!important;
+}
+
+/*分页样式完毕*/
+
 .index-separate-line {
     border: none;
     border-top: 1px solid #d3d3d3;
@@ -40,7 +70,7 @@ body, html, p, ul, li, h1, h2, h3 {
 }
 
 .margin-top-120 {
-    margin-top: 120px;
+    margin-top: 120px!important;
 }
 
 .margin-bottom-80 {
